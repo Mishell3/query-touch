@@ -2,19 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src=https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js></script>
     <title>Grafica de Dona </title>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js></script>
+   
 </head>
 <body>
     <div width "50px" >
-        <canvas id="graficadona"></canvas>
+        <canvas id="grafica"></canvas>
 
     </div>
     <script>
-        var grafica= document.getElementById("grafica");
-       var myPieChart = new Chart(grafica,{
+        var grafica = document.getElementById("grafica");
+       var myPieChart = new Chart(grafica, {
            Type: 'doughnut',
            data:{
                labels: ['Materias Cursadas','Materias Restantes'],
